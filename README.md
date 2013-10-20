@@ -8,6 +8,16 @@ Requirements
 
 - PHP 5.3.0 and up
 
+Install
+-------
+
+In your application or dependent library root directory, create a composer.json file.
+In the require or alternatively in the require-dev section, add the following dependency:
+
+    "cloned/luckybox": "$VERSION"
+
+with $VERSION being one of the versions available at [Packagist](https://packagist.org/packages/cloned/luckybox "Packagist").
+
 Usage
 -----
 
