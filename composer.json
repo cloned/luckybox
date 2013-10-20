@@ -1,0 +1,23 @@
+{
+    "name": "cloned/luckybox",
+    "description": "A library to pick up the one with a specified probability from some items.",
+    "keywords": ["luckybox", "lottery", "random"],
+    "homepage": "https://github.com/cloned/luckybox",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satoru Nakamura",
+            "email": "clonedoppelganger@gmail.com",
+            "homepage": "http://cloned.jp/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "LuckyBox": "src/" }
+    }
+}
